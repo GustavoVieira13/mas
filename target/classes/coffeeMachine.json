@@ -1,0 +1,133 @@
+{
+	"ID": "coffeMachine_79e4d4df-e8ce-42fd-9381-2f4caf7b91b4",
+	"FriendlyName": "FAIRWORK_OMILAB COFFEE MACHINE",
+	"DESCRIPTION": "",
+	"LOCATION": "OMILAB",
+	"Endpoint": "http://olive.innovation-laboratory.org/lab-reservation-service/rest/reservation/call/Dobot%20Magician%20-%201%20(Karl)/",
+	"Token": "3075b186-98c4-44eb-8ac0-19569e3f8f25",
+	"HomePosition": "/moveToHomePosition",
+	"AssociatedSkills": [
+		{
+            "ID": "robot",
+			"Action": "espresso",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=180&y=-158&z=-10",
+				"/moveToPosition?x=180&y=-158&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=180&y=-158&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        },
+		{
+            "ID": "robot",
+			"Action": "lungo",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=256&y=-158&z=-10",
+				"/moveToPosition?x=256&y=-158&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=256&y=-158&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        },
+		{
+            "ID": "robot",
+			"Action": "decaffeinato",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=256&y=-57&z=-10",
+				"/moveToPosition?x=256&y=-57&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=256&y=-57&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        },
+		{
+            "ID": "robot",
+			"Action": "ristretto",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=180&y=-57&z=-10",
+				"/moveToPosition?x=180&y=-57&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=180&y=-57&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        },
+		{
+            "ID": "robot",
+			"Action": "sugar",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=256&y=40&z=-10",
+				"/moveToPosition?x=256&y=40&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=256&y=40&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        },
+		{
+            "ID": "robot",
+			"Action": "milk",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=256&y=88&z=-10",
+				"/moveToPosition?x=256&y=88&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=256&y=88&z=50",
+				"/moveToPosition?x=256&y=-107&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        },
+		{
+            "ID": "robot",
+			"Action": "soy_milk",
+            "FriendlyName": "Omilab Robot",
+			"REST_CALL": [
+				"/moveToPosition?x=180&y=88&z=-10",
+				"/moveToPosition?x=180&y=88&z=-69",
+				"/turnOnSuctionCup",
+				"/moveToPosition?x=180&y=88&z=50",
+				"/moveToPosition?x=256&y=-107&z=50",
+				"/moveToPosition?x=26&y=-230&z=50",
+				"/moveToPosition?x=26&y=-230&z=30",
+				"/turnOffSuctionCup"
+			],
+            "Description": ""
+        }
+	],
+	"AssociatedEvents": [
+		""
+	],
+	"AssociatedRuleSet": [
+		""
+	],
+	"FWConnector": [
+		""
+	],
+	"FWValue": [
+		""
+	],
+	"FWSubsystem": [
+		""
+	]
+}

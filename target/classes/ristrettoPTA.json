@@ -1,0 +1,64 @@
+{
+	"ID": "COFFEE_RISTRETTO_PTA",
+	"FriendlyName": "FAIRWORK_OMILAB COFFEE MACHINE",
+	"DESCRIPTION": "",
+	"LOCATION": "OMILAB",
+	"FWProcess":
+		{
+            "ID": "coffe_11111c00-73eb-498c-beea-7cf7fab0eb1b",
+            "FriendlyName": "Ristretto Coffee",
+            "Description": "",
+            "StartTime": "",
+            "EndTime": "",
+            "FWOperationList": [
+                {
+                    "ID": "ristretto",
+                    "FriendlyName": "",
+                    "Optional": "No",
+                    "Type": "",
+                    "Description": "",
+                    "OperationDependencies": "",
+                    "StartTime": "",
+                    "EndTime": "",
+                    "AssociatedSkill": "robot"
+                },
+                {
+                    "ID": "sugar",
+                    "FriendlyName": "",
+                    "Optional": "Yes",
+                    "Type": [
+                        "no", "yes"
+                    ],
+                    "Description": "",
+                    "OperationDependencies": "ristretto",
+                    "StartTime": "",
+                    "EndTime": "",
+                    "AssociatedSkill": "robot"
+                },
+                {
+                    "ID": "milk",
+                    "FriendlyName": "",
+                    "Optional": "Yes",
+                    "Type": [
+                        "no", "milk", "soy_milk"
+                    ],
+                    "Description": "",
+                    "OperationDependencies": "sugar",
+                    "StartTime": "",
+                    "EndTime": "",
+                    "AssociatedSkill": "robot"
+                },
+                {
+                    "ID": "brew",
+                    "FriendlyName": "",
+                    "Optional": "No",
+                    "Type": "",
+                    "Description": "",
+                    "OperationDependencies": "milk",
+                    "StartTime": "",
+                    "EndTime": "",
+                    "AssociatedSkill": "robot"
+                }
+            ]
+        }
+}

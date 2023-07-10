@@ -27,7 +27,7 @@
                     "FriendlyName": "",
                     "Optional": "Yes",
                     "Type": [
-                        "no", "yes"
+                        "no", "sugar"
                     ],
                     "Description": "",
                     "OperationDependencies": "espresso",

@@ -137,7 +137,7 @@ public class RA extends Agent {
 							e.printStackTrace();
 						}
 						Iterator<JSONObject> iterator = fwOperationList.iterator(); // creates an iterator for the
-																					// JSONArray
+																					// JSONArray																
 						Iterator<JSONObject> iteratorRestCall;
 						JSONObject operation; // declares a JSONObject
 						String id, associatedSkill; // declares 'id' and 'AssociatedSkill' strings
@@ -147,13 +147,13 @@ public class RA extends Agent {
 							try {
 								operation = iterator.next(); // gets the next item from the JSONArray
 								id = (String) operation.get("ID"); // gets the value associated with the key 'ID' and
-																	// casts it to a string
+																	// casts it to a string		
 								if (operation.get("Optional").equals("No")) { // if the operation isn't optional, it
 																				// goes here (coffee selection)
 									System.out.println("Executing: " + id);
-									Iterator<JSONObject> iterator_skills = associatedSkills.iterator();
-									while (iterator_skills.hasNext()) {
-										skill = iterator_skills.next();
+									Iterator<JSONObject> iteratorSkills = associatedSkills.iterator();
+									while (iteratorSkills.hasNext()) {
+										skill = iteratorSkills.next();
 										if (id.equals(skill.get("Action"))) {
 											JSONArray restOperationList = (JSONArray) skill.get("REST_CALL");
 											System.out.println(restOperationList);
@@ -173,10 +173,10 @@ public class RA extends Agent {
 										System.out.println("Skipping operation: " + id);
 									} else { // when a season is chosen, it goes here
 										System.out.println("Executing: " + order[i]);
-										Iterator<JSONObject> iterator_skills = associatedSkills.iterator();
-										while (iterator_skills.hasNext()) {
-											skill = iterator_skills.next();
-											if (id.equals(skill.get("Action"))) {
+										Iterator<JSONObject> iteratorSkills = associatedSkills.iterator();
+										while (iteratorSkills.hasNext()) {
+											skill = iteratorSkills.next();
+											if (order[i].equals(skill.get("Action"))) {
 												JSONArray restOperationList = (JSONArray) skill.get("REST_CALL");
 												System.out.println(restOperationList);
 												iteratorRestCall = restOperationList.iterator();

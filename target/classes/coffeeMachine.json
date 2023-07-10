@@ -4,7 +4,7 @@
 	"DESCRIPTION": "",
 	"LOCATION": "OMILAB",
 	"Endpoint": "http://olive.innovation-laboratory.org/lab-reservation-service/rest/reservation/call/Dobot%20Magician%20-%201%20(Karl)/",
-	"Token": "3075b186-98c4-44eb-8ac0-19569e3f8f25",
+	"Token": "6ca8343d-e3dc-4c00-81ea-47da59a1754b",
 	"HomePosition": "/moveToHomePosition",
 	"AssociatedSkills": [
 		{
@@ -18,7 +18,8 @@
 				"/moveToPosition?x=180&y=-158&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         },
@@ -33,7 +34,8 @@
 				"/moveToPosition?x=256&y=-158&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         },
@@ -48,7 +50,8 @@
 				"/moveToPosition?x=256&y=-57&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         },
@@ -63,7 +66,8 @@
 				"/moveToPosition?x=180&y=-57&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         },
@@ -78,7 +82,8 @@
 				"/moveToPosition?x=256&y=40&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         },
@@ -94,7 +99,8 @@
 				"/moveToPosition?x=256&y=-107&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         },
@@ -103,6 +109,7 @@
 			"Action": "soy_milk",
             "FriendlyName": "Omilab Robot",
 			"REST_CALL": [
+				"/moveToPosition?x=256&y=-107&z=50",
 				"/moveToPosition?x=180&y=88&z=-10",
 				"/moveToPosition?x=180&y=88&z=-69",
 				"/turnOnSuctionCup",
@@ -110,7 +117,8 @@
 				"/moveToPosition?x=256&y=-107&z=50",
 				"/moveToPosition?x=26&y=-230&z=50",
 				"/moveToPosition?x=26&y=-230&z=30",
-				"/turnOffSuctionCup"
+				"/turnOffSuctionCup",
+				"/moveToPosition?x=26&y=-230&z=50"
 			],
             "Description": ""
         }

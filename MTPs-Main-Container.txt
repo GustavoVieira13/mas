@@ -1,1 +1,1 @@
-http://DESKTOP-DR074M2:7778/acc
+http://10.8.205.34:7778/acc

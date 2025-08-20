@@ -35,6 +35,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Gustavo/Desktop/CursoMAS/JADE-All/jade/lib/jade.jar"/>
+	<classpathentry kind="lib" path="/JADE-All/jade/lib/jade.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

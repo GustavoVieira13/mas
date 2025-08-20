@@ -3,8 +3,8 @@
 	"FriendlyName": "FAIRWORK_OMILAB COFFEE MACHINE",
 	"DESCRIPTION": "",
 	"LOCATION": "OMILAB",
-	"Endpoint": "http://olive.innovation-laboratory.org/lab-reservation-service/rest/reservation/call/Dobot%20Magician%20-%201%20(Karl)/",
-	"Token": "6ca8343d-e3dc-4c00-81ea-47da59a1754b",
+	"Endpoint": "",
+	"Token": "",
 	"HomePosition": "/moveToHomePosition",
 	"AssociatedSkills": [
 		{

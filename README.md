@@ -1,0 +1,1 @@
+Projeto responsável por efetuar controle de um braço robótico através de uma abordagem multi-agente industrial onde as operações dividem-se entre agentes que representam produtos, bluescreens e ordens de produção.
